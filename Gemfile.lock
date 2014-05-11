@@ -136,6 +136,7 @@ DEPENDENCIES
   rails (= 4.1.0)
   rspec
   rspec-rails
+  sqlite3
   sqlite3-ruby
   therubyracer (>= 0.11.0)
   webrat
