@@ -5,7 +5,6 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'gravatar_image_tag'
-gem 'sqlite3'
 
  group :development do
 gem 'rspec-rails'
@@ -20,6 +19,9 @@ group :test do
 
 end
 
+group :production do
+  gem 'pg'
+end
 
 
 gem 'execjs'
